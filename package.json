@@ -2,7 +2,7 @@
   "name": "react-toolkit",
   "displayName": "react-toolkit",
   "description": "Useful tools for react developers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icon": "assets/logo.png",
   "license": "MIT",
   "repository": {

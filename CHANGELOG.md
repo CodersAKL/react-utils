@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.0.2 (2020-02-12)
+
 # Change Log
 
 All notable changes to the "react-toolkit" extension will be documented in this file.
