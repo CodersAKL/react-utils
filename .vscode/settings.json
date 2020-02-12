@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "out": false,
+    ".vscode-test": true,
+    "out/test": false
+  },
+  "search.exclude": {
+    "out": true,
+    ".vscode-test": true
+  },
+  "typescript.tsc.autoDetect": "off",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
