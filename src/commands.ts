@@ -1,5 +1,4 @@
 import * as vscode from 'vscode';
-import lineColumn from 'line-column';
 import { editorContext, showInputBox, camelCase } from './utils';
 
 const { Position } = vscode;
@@ -19,18 +18,19 @@ export async function extractStyle() {
             .edit((edit) => {
                 const defaultLine = editor.document.lineCount + 1;
                 let stylesText;
-                let row = undefined;
+                let row = null;
 
                 if (text && !!~text.indexOf('StyleSheet.create')) {
-                    row = lineColumn(text).fromIndex(text.indexOf('StyleSheet.create'));
+                    editor.document.getText(selection);
+                    row = editor.document.positionAt(text.indexOf('StyleSheet.create')).line;
                     stylesText = `${styleName}: ${selectedText},\n`;
                 } else {
-                    stylesText = `\n\nconst styles = StyleSheet.create({\n${styleName}: ${selectedText},\n})`;
+                    stylesText = `\nconst styles = StyleSheet.create({\n${styleName}: ${selectedText},\n});`;
                 }
 
                 edit.replace(selection, `styles.${styleName}`);
 
-                edit.insert(new Position(row ? row.line : defaultLine, 0), stylesText);
+                edit.insert(new Position(row ? row + 1 : defaultLine, 0), stylesText);
             })
             .then(() => {
                 return vscode.commands.executeCommand('editor.action.formatDocument');
