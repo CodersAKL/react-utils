@@ -1,5 +1,8 @@
 import * as vscode from 'vscode';
-import { editorContext, showInputBox, camelCase } from './utils';
+import * as fs from 'fs-extra';
+import { run as convertToTypeScript } from 'react-js-to-ts';
+
+import { editorContext, showInputBox, camelCase, getNewFileName, isJsx } from './utils';
 
 const { Position } = vscode;
 export const activeEditor = () => vscode.window.activeTextEditor;
@@ -37,3 +40,23 @@ export async function extractStyle() {
             });
     });
 }
+
+export const convertFileToTypescript = async (uri: vscode.Uri) => {
+    const { path } = uri;
+
+    vscode.workspace
+        .openTextDocument(uri)
+        .then(async (document) => {
+            const text = document.getText();
+            const newFile = getNewFileName(path, isJsx(text) ? 'tsx' : 'ts');
+
+            await fs.rename(path, newFile);
+            const result = convertToTypeScript(newFile);
+            await fs.writeFile(newFile, result);
+            const file = await vscode.workspace.openTextDocument(newFile);
+            vscode.window.showTextDocument(file);
+        })
+        .then(() => {
+            return vscode.commands.executeCommand('editor.action.formatDocument');
+        });
+};
