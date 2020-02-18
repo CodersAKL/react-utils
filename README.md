@@ -1,4 +1,4 @@
-# react-toolkit
+# react-toolkit ![react-toolkit](https://github.com/CodersAKL/react-toolkit/workflows/Release%20Vscode%20Plugin/badge.svg)
 
 This is VsCode plugin suppose to help developers convert their project to typescript.
 
