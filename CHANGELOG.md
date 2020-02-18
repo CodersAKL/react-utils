@@ -1,5 +1,12 @@
+## <small>1.0.2 (2020-02-18)</small>
+
+* feat(changelog): update release notes automaticly ([9c80fd1](https://github.com/CodersAKL/react-toolkit/commit/9c80fd1))
+
+
+
 ## <small>1.0.1 (2020-02-18)</small>
 
+* v1.0.1 ([ab0c688](https://github.com/CodersAKL/react-toolkit/commit/ab0c688))
 * perf: do I need third party actions? ([685f07e](https://github.com/CodersAKL/react-toolkit/commit/685f07e))
 * fix: should run ci only on version ([3e5d5ad](https://github.com/CodersAKL/react-toolkit/commit/3e5d5ad))
 
