@@ -12,12 +12,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "10.x"
+      - run: npm install -g vsce
       - run: yarn install
       - run: yarn lint
       - run: yarn compile
-
-      - uses: JCofman/vscodeaction@master
-        env:
-          PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
-        with:
-          args: publish -p $PUBLISHER_TOKEN
+      - run: vsce publish -p ${{ secrets.PUBLISHER_TOKEN }}
