@@ -19,4 +19,5 @@ jobs:
       - run: yarn lint
       - run: yarn compile
       - run: vsce publish -p ${{ secrets.PUBLISHER_TOKEN }}
+      - run: export GITHUB_TOKEN=${{ secrets.REPO_TOKEN }}
       - run: github-release-from-changelog
