@@ -1,6 +1,14 @@
+## <small>1.0.1 (2020-02-18)</small>
+
+* perf: do I need third party actions? ([685f07e](https://github.com/CodersAKL/react-toolkit/commit/685f07e))
+* fix: should run ci only on version ([3e5d5ad](https://github.com/CodersAKL/react-toolkit/commit/3e5d5ad))
+
+
+
 ## 1.0.0 (2020-02-18)
 
 * Added badges to readme ([7f9a578](https://github.com/CodersAKL/react-toolkit/commit/7f9a578))
+* v1.0.0 ([96a62e9](https://github.com/CodersAKL/react-toolkit/commit/96a62e9))
 * fix: ci fix ([c57bb26](https://github.com/CodersAKL/react-toolkit/commit/c57bb26))
 
 
