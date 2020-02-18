@@ -1,6 +1,8 @@
 import * as vscode from 'vscode';
 import * as fs from 'fs-extra';
 import { run as convertToTypeScript } from 'react-js-to-ts';
+import { ModuleKind, transpileModule } from 'typescript';
+import { cjsToEsm } from '@wessberg/cjs-to-esm-transformer';
 
 import { editorContext, showInputBox, camelCase, getNewFileName, isJsx } from './utils';
 
@@ -53,6 +55,32 @@ export const convertFileToTypescript = async (uri: vscode.Uri) => {
             await fs.rename(path, newFile);
             const result = convertToTypeScript(newFile);
             await fs.writeFile(newFile, result);
+            const file = await vscode.workspace.openTextDocument(newFile);
+            vscode.window.showTextDocument(file);
+        })
+        .then(() => {
+            return vscode.commands.executeCommand('editor.action.formatDocument');
+        });
+};
+
+export const convertCjsToEsm = async (uri: vscode.Uri) => {
+    const { path } = uri;
+    vscode.workspace
+        .openTextDocument(uri)
+        .then(async (document) => {
+            const text = document.getText();
+            const newFile = getNewFileName(path, isJsx(text) ? 'tsx' : 'ts');
+
+            const result = transpileModule(text, {
+                transformers: cjsToEsm(),
+                compilerOptions: {
+                    module: ModuleKind.ESNext,
+                },
+            });
+
+            await fs.rename(path, newFile);
+            await fs.writeFile(newFile, result.outputText);
+
             const file = await vscode.workspace.openTextDocument(newFile);
             vscode.window.showTextDocument(file);
         })
