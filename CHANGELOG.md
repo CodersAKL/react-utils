@@ -1,5 +1,13 @@
+## 1.0.0 (2020-02-18)
+
+* Added badges to readme ([7f9a578](https://github.com/CodersAKL/react-toolkit/commit/7f9a578))
+* fix: ci fix ([c57bb26](https://github.com/CodersAKL/react-toolkit/commit/c57bb26))
+
+
+
 ## <small>0.0.7 (2020-02-18)</small>
 
+* v0.0.7 ([11d2b8b](https://github.com/CodersAKL/react-toolkit/commit/11d2b8b))
 * fix: trying to fix CI ([195ebf3](https://github.com/CodersAKL/react-toolkit/commit/195ebf3))
 * fix: trying to fix CI ([082b4bd](https://github.com/CodersAKL/react-toolkit/commit/082b4bd))
 
