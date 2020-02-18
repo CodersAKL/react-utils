@@ -1,5 +1,12 @@
+## <small>1.0.3 (2020-02-18)</small>
+
+* fix(ci): trying to fix ci ([cb38a6f](https://github.com/CodersAKL/react-toolkit/commit/cb38a6f))
+
+
+
 ## <small>1.0.2 (2020-02-18)</small>
 
+* v1.0.2 ([b6db903](https://github.com/CodersAKL/react-toolkit/commit/b6db903))
 * feat(changelog): update release notes automaticly ([9c80fd1](https://github.com/CodersAKL/react-toolkit/commit/9c80fd1))
 
 
