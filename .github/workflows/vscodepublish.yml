@@ -7,13 +7,13 @@ jobs:
   npmInstall:
     name: npm install
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: "10.x"
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
       - run: npm install -g vsce github-release-from-changelog
       - run: yarn install
       - run: yarn lint
