@@ -17,8 +17,7 @@ jobs:
       - run: yarn install
       - run: yarn lint
       - run: yarn compile
-    name: Release plugin
-    steps:
+
       - uses: JCofman/vscodeaction@master
         env:
           PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
