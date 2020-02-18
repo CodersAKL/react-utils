@@ -1,15 +1,18 @@
 on: push
-name: 'Release Vscode Plugin'
+name: "Release Vscode Plugin"
 jobs:
   npmInstall:
     name: npm install
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: npm install
-        uses: actions/npm@master
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          args: install --unsafe-perm
+          node-version: 12
+      - run: yarn
+      - run: yarn lint
+      - run: yarn compile
       - name: Master
         uses: actions/bin/filter@master
         with:
