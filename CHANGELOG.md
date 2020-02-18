@@ -1,8 +1,16 @@
+## <small>0.0.7 (2020-02-18)</small>
+
+* fix: trying to fix CI ([195ebf3](https://github.com/CodersAKL/react-toolkit/commit/195ebf3))
+* fix: trying to fix CI ([082b4bd](https://github.com/CodersAKL/react-toolkit/commit/082b4bd))
+
+
+
 ## <small>0.0.6 (2020-02-18)</small>
 
-* feat: added CI and release notes ([0fc70de](https://github.com/CodersAKL/react-toolkit/commit/0fc70de))
 * Create FUNDING.yml ([98c371e](https://github.com/CodersAKL/react-toolkit/commit/98c371e))
 * Create vscodepublish.yml ([9ea5396](https://github.com/CodersAKL/react-toolkit/commit/9ea5396))
+* v0.0.6 ([f11b128](https://github.com/CodersAKL/react-toolkit/commit/f11b128))
+* feat: added CI and release notes ([0fc70de](https://github.com/CodersAKL/react-toolkit/commit/0fc70de))
 
 
 
