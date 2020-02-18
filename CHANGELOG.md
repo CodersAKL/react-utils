@@ -1,5 +1,14 @@
+## <small>0.0.6 (2020-02-18)</small>
+
+* feat: added CI and release notes ([0fc70de](https://github.com/CodersAKL/react-toolkit/commit/0fc70de))
+* Create FUNDING.yml ([98c371e](https://github.com/CodersAKL/react-toolkit/commit/98c371e))
+* Create vscodepublish.yml ([9ea5396](https://github.com/CodersAKL/react-toolkit/commit/9ea5396))
+
+
+
 ## <small>0.0.5 (2020-02-18)</small>
 
+* v0.0.5 ([51de02c](https://github.com/CodersAKL/react-toolkit/commit/51de02c))
 * fix(package.json): added conventional commit messages ([65dabf9](https://github.com/CodersAKL/react-toolkit/commit/65dabf9))
 * feat(command): convert CommonJs to Typescript ([93d47a5](https://github.com/CodersAKL/react-toolkit/commit/93d47a5))
 
