@@ -1,24 +1,25 @@
-on: push
 name: "Release Vscode Plugin"
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - v*
 jobs:
   npmInstall:
     name: npm install
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
-      - run: yarn
+          node-version: "10.x"
+      - run: yarn install
       - run: yarn lint
       - run: yarn compile
-      - name: Master
-        uses: actions/bin/filter@master
-        with:
-          args: branch master
-      - name: Vscode release plugin
-        uses: JCofman/vscodeaction@master
+    name: Release plugin
+    steps:
+      - uses: JCofman/vscodeaction@master
         env:
           PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
         with:
