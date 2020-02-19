@@ -1,4 +1,4 @@
-# react-toolkit ![GitHub Workflow Status](https://raster.shields.io/github/workflow/status/CodersAKL/react-toolkit/Build.png) ![GitHub package.json version](https://img.shields.io/github/package-json/v/CodersAKL/react-toolkit.png)
+# react-toolkit ![GitHub Workflow Status](https://raster.shields.io/github/workflow/status/CodersAKL/react-toolkit/Release%20Vscode%20Plugin.png) ![GitHub package.json version](https://img.shields.io/github/package-json/v/CodersAKL/react-toolkit.png)
 
 This is VsCode plugin suppose to help developers convert their project to typescript.
 
