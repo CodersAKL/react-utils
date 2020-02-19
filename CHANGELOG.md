@@ -1,6 +1,13 @@
+## <small>1.1.3 (2020-02-19)</small>
+
+* Missing typescript ([9186651](https://github.com/CodersAKL/react-toolkit/commit/9186651))
+
+
+
 ## <small>1.1.2 (2020-02-19)</small>
 
 * Modules optimizations does not work ([caad037](https://github.com/CodersAKL/react-toolkit/commit/caad037))
+* v1.1.2 ([0161d0c](https://github.com/CodersAKL/react-toolkit/commit/0161d0c))
 
 
 
