@@ -1,7 +1,14 @@
+## <small>1.1.5 (2020-02-19)</small>
+
+* fix(pipeline): fix CI ([5c0261d](https://github.com/CodersAKL/react-toolkit/commit/5c0261d))
+
+
+
 ## <small>1.1.4 (2020-02-19)</small>
 
-* fix(utils): fix utils ([af83153](https://github.com/CodersAKL/react-toolkit/commit/af83153))
 * Display converters only on js files ([63f23c5](https://github.com/CodersAKL/react-toolkit/commit/63f23c5))
+* v1.1.4 ([2722104](https://github.com/CodersAKL/react-toolkit/commit/2722104))
+* fix(utils): fix utils ([af83153](https://github.com/CodersAKL/react-toolkit/commit/af83153))
 
 
 
