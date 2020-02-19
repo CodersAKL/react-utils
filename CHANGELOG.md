@@ -1,7 +1,14 @@
+## <small>1.0.7 (2020-02-19)</small>
+
+* Optimize CI ([c4fdb8f](https://github.com/CodersAKL/react-toolkit/commit/c4fdb8f))
+
+
+
 ## <small>1.0.6 (2020-02-19)</small>
 
-* perf(ci): improve CI scripts ([45591a3](https://github.com/CodersAKL/react-toolkit/commit/45591a3))
 * Update vscodepublish.yml ([648c470](https://github.com/CodersAKL/react-toolkit/commit/648c470))
+* v1.0.6 ([003fa03](https://github.com/CodersAKL/react-toolkit/commit/003fa03))
+* perf(ci): improve CI scripts ([45591a3](https://github.com/CodersAKL/react-toolkit/commit/45591a3))
 
 
 
