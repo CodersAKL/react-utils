@@ -1,6 +1,13 @@
+## <small>1.0.8 (2020-02-19)</small>
+
+* Do not ignore extention logo ([84fa973](https://github.com/CodersAKL/react-toolkit/commit/84fa973))
+
+
+
 ## <small>1.0.7 (2020-02-19)</small>
 
 * Optimize CI ([c4fdb8f](https://github.com/CodersAKL/react-toolkit/commit/c4fdb8f))
+* v1.0.7 ([683fc90](https://github.com/CodersAKL/react-toolkit/commit/683fc90))
 
 
 
