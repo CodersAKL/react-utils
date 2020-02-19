@@ -1,5 +1,11 @@
+## <small>1.1.8 (2020-02-19)</small>
+
+
+
+
 ## <small>1.1.7 (2020-02-19)</small>
 
+* v1.1.7 ([faa7124](https://github.com/CodersAKL/react-toolkit/commit/faa7124))
 
 
 
