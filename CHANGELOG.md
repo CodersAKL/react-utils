@@ -1,6 +1,20 @@
+## 1.1.0 (2020-02-19)
+
+* Optimize node_modules ([74ab146](https://github.com/CodersAKL/react-toolkit/commit/74ab146))
+
+
+
+## <small>1.0.9 (2020-02-19)</small>
+
+* Do not ignore logo ([4200afb](https://github.com/CodersAKL/react-toolkit/commit/4200afb))
+* Update package.json ([539482e](https://github.com/CodersAKL/react-toolkit/commit/539482e))
+
+
+
 ## <small>1.0.8 (2020-02-19)</small>
 
 * Do not ignore extention logo ([84fa973](https://github.com/CodersAKL/react-toolkit/commit/84fa973))
+* v1.0.8 ([8a761b8](https://github.com/CodersAKL/react-toolkit/commit/8a761b8))
 
 
 
