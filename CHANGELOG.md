@@ -1,6 +1,14 @@
+## <small>1.1.4 (2020-02-19)</small>
+
+* fix(utils): fix utils ([af83153](https://github.com/CodersAKL/react-toolkit/commit/af83153))
+* Display converters only on js files ([63f23c5](https://github.com/CodersAKL/react-toolkit/commit/63f23c5))
+
+
+
 ## <small>1.1.3 (2020-02-19)</small>
 
 * Missing typescript ([9186651](https://github.com/CodersAKL/react-toolkit/commit/9186651))
+* v1.1.3 ([5e4f7b6](https://github.com/CodersAKL/react-toolkit/commit/5e4f7b6))
 
 
 
