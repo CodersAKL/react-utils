@@ -16,9 +16,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: Install Node.js
-      - uses: actions/setup-node@v1
+        uses: actions/setup-node@v1
         with:
           node-version: "10.x"
       - run: yarn
@@ -29,7 +29,7 @@ jobs:
         with:
           run: yarn test
       - name: Prepare release
-      - run: yarn compile
+        run: yarn compile
       - run: npx github-release-from-changelog
       - name: Publish
-      - run: npx vsce publish -p $PUBLISHER_TOKEN
+        run: npx vsce publish -p $PUBLISHER_TOKEN

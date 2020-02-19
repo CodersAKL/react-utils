@@ -1,5 +1,11 @@
+## <small>1.1.6 (2020-02-19)</small>
+
+
+
+
 ## <small>1.1.5 (2020-02-19)</small>
 
+* v1.1.5 ([5143e44](https://github.com/CodersAKL/react-toolkit/commit/5143e44))
 * fix(pipeline): fix CI ([5c0261d](https://github.com/CodersAKL/react-toolkit/commit/5c0261d))
 
 
