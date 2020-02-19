@@ -8,18 +8,28 @@ env:
   PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
 
 jobs:
-  npmInstall:
-    name: Tests
-    runs-on: ubuntu-latest
+  build:
+    name: Build
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
+      - name: Checkout
       - uses: actions/checkout@v2
+      - name: Install Node.js
       - uses: actions/setup-node@v1
         with:
           node-version: "10.x"
       - run: yarn
       - run: npm list --production --parseable --depth=99999 --loglevel=error
       - run: yarn lint
-      - run: yarn test
+      - name: Run tests
+        uses: GabrielBB/xvfb-action@v1.0
+        with:
+          run: yarn test
+      - name: Prepare release
       - run: yarn compile
       - run: npx github-release-from-changelog
+      - name: Publish
       - run: npx vsce publish -p $PUBLISHER_TOKEN
