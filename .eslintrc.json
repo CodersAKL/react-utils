@@ -1,19 +1,76 @@
 {
-    "root": true,
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "@typescript-eslint"
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "optionalChaining": true
+  },
+  "plugins": ["@typescript-eslint", "import", "prettier"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/class-name-casing": "warn",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/semi": "warn",
+    "no-undef": "error",
+    "curly": "warn",
+    "eqeqeq": "warn",
+    "no-throw-literal": "warn",
+    "semi": "off",
+    "newline-before-return": "error",
+    "lines-between-class-members": ["error", "always"],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "groups": [
+          ["builtin", "external"],
+          ["internal", "sibling", "parent", "index"],
+          "unknown"
+        ]
+      }
     ],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": ["const", "let", "var"],
+        "next": "*"
+      },
+      {
+        "blankLine": "any",
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
+      },
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": ["class", "return", "export"]
+      }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "settings": {
+    "parser": "typescript-eslint-parser",
     "rules": {
-        "@typescript-eslint/class-name-casing": "warn",
-        "@typescript-eslint/semi": "warn",
-        "curly": "warn",
-        "eqeqeq": "warn",
-        "no-throw-literal": "warn",
-        "semi": "off"
-    }
+      "import/no-unresolved": "error"
+    },
+    "import/resolver": {
+      "typescript": {}
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"]
+    },
+    "import/extensions": [".js", ".ts"]
+  }
 }

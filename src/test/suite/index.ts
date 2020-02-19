@@ -8,8 +8,7 @@ export function run(): Promise<void> {
         ui: 'tdd',
     });
 
-    // @ts-ignore
-    mocha.color(true);
+    mocha.useColors(true);
 
     const testsRoot = path.resolve(__dirname, '..');
 

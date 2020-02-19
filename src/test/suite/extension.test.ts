@@ -1,10 +1,7 @@
 import * as assert from 'assert';
-import { camelCase } from '../../utils';
-
-// You can import and use all API from the 'vscode' module
-// as well as import your extension to test it
 import * as vscode from 'vscode';
-// import * as myExtension from '../extension';
+
+import { camelCase } from '../../utils';
 
 suite('Extension Test Suite', () => {
     vscode.window.showInformationMessage('Start all tests.');
@@ -15,6 +12,13 @@ suite('Extension Test Suite', () => {
     });
 
     test('camelCase user input', () => {
-        assert.equal(camelCase('labas krabas'), 'labasKrabas');
+        assert.equal(camelCase('foo buzz'), 'fooBuzz');
+        assert.equal(camelCase('fooBuzz'), 'fooBuzz');
+        assert.equal(
+            camelCase('Text is 123 test TTextF̸̡̢͓̳̜̪̟̳̠̻̖͐̂̍̅̔̂͋͂͐l̸̢̹̣̤̙͚̱͓̖̹̻̣͇͗͂̃̈͝a̸̢̡̬͕͕̰̖͍̮̪̬̍̏̎̕͘ͅv̸̢̛̠̟̄̿i̵̮͌̑ǫ̶̖͓͎̝͈̰̹̫͚͓̠̜̓̈́̇̆̑͜ͅ123test !!12 --!~@#$%%^&*( (test)'),
+            'textIs123TestTTextFLAvIo123test12test',
+        );
+        assert.equal(camelCase('foo       buzz'), 'fooBuzz');
+        assert.equal(camelCase('LABAS'), 'lABAS');
     });
 });

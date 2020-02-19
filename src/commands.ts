@@ -7,10 +7,12 @@ import { cjsToEsm } from '@wessberg/cjs-to-esm-transformer';
 import { editorContext, showInputBox, camelCase, getNewFileName, isJsx } from './utils';
 
 const { Position } = vscode;
+
 export const activeEditor = () => vscode.window.activeTextEditor;
 
 export async function extractStyle() {
     const editor = activeEditor();
+
     if (!editor) {
         return;
     }
@@ -54,8 +56,10 @@ export const convertFileToTypescript = async (uri: vscode.Uri) => {
 
             await fs.rename(path, newFile);
             const result = convertToTypeScript(newFile);
+
             await fs.writeFile(newFile, result);
             const file = await vscode.workspace.openTextDocument(newFile);
+
             vscode.window.showTextDocument(file);
         })
         .then(() => {
@@ -65,6 +69,7 @@ export const convertFileToTypescript = async (uri: vscode.Uri) => {
 
 export const convertCjsToEsm = async (uri: vscode.Uri) => {
     const { path } = uri;
+
     vscode.workspace
         .openTextDocument(uri)
         .then(async (document) => {
@@ -82,6 +87,7 @@ export const convertCjsToEsm = async (uri: vscode.Uri) => {
             await fs.writeFile(newFile, result.outputText);
 
             const file = await vscode.workspace.openTextDocument(newFile);
+
             vscode.window.showTextDocument(file);
         })
         .then(() => {

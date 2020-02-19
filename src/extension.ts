@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+
 import { extractStyle, convertFileToTypescript, convertCjsToEsm } from './commands';
 
 export function activate(context: vscode.ExtensionContext) {
@@ -12,5 +13,3 @@ export function activate(context: vscode.ExtensionContext) {
     context.subscriptions.push(commandReadFile);
     context.subscriptions.push(commandCjsToEsm);
 }
-
-export function deactivate() {}

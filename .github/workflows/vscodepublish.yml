@@ -19,16 +19,7 @@ jobs:
       - run: yarn
       - run: npm list --production --parseable --depth=99999 --loglevel=error
       - run: yarn lint
+      - run: yarn test
       - run: yarn compile
       - run: npx github-release-from-changelog
-
-  vscPublish:
-    name: Release Extension
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "10.x"
-      - run: yarn
       - run: npx vsce publish -p $PUBLISHER_TOKEN

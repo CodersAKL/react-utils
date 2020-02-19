@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 import * as path from 'path';
 
 export const editorContext = (
-    callback: (editor: vscode.TextEditor, selection: vscode.Selection, original: string, text: string) => any,
+    callback: (editor: vscode.TextEditor, selection: vscode.Selection, original: string, text: string) => void,
 ) => {
     const editor = vscode.window.activeTextEditor;
 
@@ -26,10 +26,10 @@ export const showInputBox = (
 
 export const camelCase = (string: string) => {
     return string
-        .toLowerCase()
-        .trim()
-        .split(/[.\-_\s]/g)
-        .reduce((string, word) => string + word[0].toUpperCase() + word.slice(1));
+        .replace(/\W/g, ' ')
+        .replace(/\s(.)/g, (a) => a.toUpperCase())
+        .replace(/\s/g, '')
+        .replace(/^(.)/, (b) => b.toLowerCase());
 };
 
 export const getFilePath = () => {
@@ -42,6 +42,7 @@ export const getFilePath = () => {
 export const getNewFileName = (fileName: string, type: 'tsx' | 'ts') => {
     const ext = path.extname(fileName).replace(/^\./, '');
     const extNameRegex = new RegExp(`${ext}$`);
+
     return fileName.replace(extNameRegex, type);
 };
 
