@@ -1,6 +1,13 @@
+## <small>1.1.2 (2020-02-19)</small>
+
+* Modules optimizations does not work ([caad037](https://github.com/CodersAKL/react-toolkit/commit/caad037))
+
+
+
 ## <small>1.1.1 (2020-02-19)</small>
 
 * Optimize dependencies and check if its ok ([670e721](https://github.com/CodersAKL/react-toolkit/commit/670e721))
+* v1.1.1 ([1307f91](https://github.com/CodersAKL/react-toolkit/commit/1307f91))
 
 
 
