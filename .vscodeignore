@@ -10,5 +10,5 @@ vsc-extension-quickstart.md
 **/*.ts
 .github/**
 assets/**
-!extension/assets/logo.png
+!assets/logo.png
 .prettierrc.js
