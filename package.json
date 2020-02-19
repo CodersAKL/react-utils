@@ -38,7 +38,7 @@
         "title": "Extract style to StyleSheet"
       },
       {
-        "command": "react-toolkit.readFile",
+        "command": "react-toolkit.convertToTS",
         "title": "Convert to Typescript"
       },
       {
@@ -56,10 +56,12 @@
       ],
       "explorer/context": [
         {
-          "command": "react-toolkit.readFile",
+          "when": "resourceExtname == .js",
+          "command": "react-toolkit.convertToTS",
           "group": "1_modification@1"
         },
         {
+          "when": "resourceExtname == .js",
           "command": "react-toolkit.convertCjsToEsm",
           "group": "1_modification@2"
         }
