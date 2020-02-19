@@ -1,5 +1,26 @@
+## <small>1.0.6 (2020-02-19)</small>
+
+* perf(ci): improve CI scripts ([45591a3](https://github.com/CodersAKL/react-toolkit/commit/45591a3))
+* Update vscodepublish.yml ([648c470](https://github.com/CodersAKL/react-toolkit/commit/648c470))
+
+
+
+## <small>1.0.5 (2020-02-18)</small>
+
+* Update package.json ([aad94c4](https://github.com/CodersAKL/react-toolkit/commit/aad94c4))
+* Update package.json ([0d4eb04](https://github.com/CodersAKL/react-toolkit/commit/0d4eb04))
+
+
+
+## <small>1.0.4 (2020-02-18)</small>
+
+* Update vscodepublish.yml ([e8a1f49](https://github.com/CodersAKL/react-toolkit/commit/e8a1f49))
+
+
+
 ## <small>1.0.3 (2020-02-18)</small>
 
+* v1.0.3 ([b5eae1f](https://github.com/CodersAKL/react-toolkit/commit/b5eae1f))
 * fix(ci): trying to fix ci ([cb38a6f](https://github.com/CodersAKL/react-toolkit/commit/cb38a6f))
 
 
