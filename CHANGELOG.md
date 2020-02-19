@@ -1,6 +1,13 @@
+## <small>1.1.1 (2020-02-19)</small>
+
+* Optimize dependencies and check if its ok ([670e721](https://github.com/CodersAKL/react-toolkit/commit/670e721))
+
+
+
 ## 1.1.0 (2020-02-19)
 
 * Optimize node_modules ([74ab146](https://github.com/CodersAKL/react-toolkit/commit/74ab146))
+* v1.1.0 ([22903fb](https://github.com/CodersAKL/react-toolkit/commit/22903fb))
 
 
 
