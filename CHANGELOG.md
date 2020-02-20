@@ -1,5 +1,11 @@
+## <small>1.1.12 (2020-02-20)</small>
+
+
+
+
 ## <small>1.1.11 (2020-02-20)</small>
 
+* v1.1.11 ([6fc3345](https://github.com/CodersAKL/react-toolkit/commit/6fc3345))
 
 
 
