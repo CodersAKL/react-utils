@@ -1,5 +1,11 @@
+## <small>1.1.15 (2020-02-20)</small>
+
+
+
+
 ## <small>1.1.14 (2020-02-20)</small>
 
+* v1.1.14 ([d7614e1](https://github.com/CodersAKL/react-toolkit/commit/d7614e1))
 
 
 
