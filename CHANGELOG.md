@@ -1,5 +1,12 @@
+## <small>1.1.9 (2020-02-20)</small>
+
+* Update README.md ([5818e2f](https://github.com/CodersAKL/react-toolkit/commit/5818e2f))
+
+
+
 ## <small>1.1.8 (2020-02-19)</small>
 
+* v1.1.8 ([6225d79](https://github.com/CodersAKL/react-toolkit/commit/6225d79))
 
 
 
