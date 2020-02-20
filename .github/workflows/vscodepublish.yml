@@ -24,7 +24,7 @@ jobs:
       - run: yarn
       - run: npm list --production --parseable --depth=99999 --loglevel=error
       - run: yarn autoclean --init
-      - run: echo "*.d.ts\n@types\n*.map" >> .yarnclean
+      - run: echo "*.d.ts\n*.map" >> .yarnclean
       - run: yarn autoclean --force
       - run: yarn lint
       - name: Run tests
