@@ -1,5 +1,11 @@
+## <small>1.1.20 (2020-02-20)</small>
+
+
+
+
 ## <small>1.1.19 (2020-02-20)</small>
 
+* v1.1.19 ([e10aabc](https://github.com/CodersAKL/react-toolkit/commit/e10aabc))
 
 
 
