@@ -1,6 +1,12 @@
+## <small>1.1.18 (2020-02-20)</small>
+
+
+
+
 ## <small>1.1.17 (2020-02-20)</small>
 
 * v1.1.16 ([c80418c](https://github.com/CodersAKL/react-toolkit/commit/c80418c))
+* v1.1.17 ([d49767a](https://github.com/CodersAKL/react-toolkit/commit/d49767a))
 
 
 
