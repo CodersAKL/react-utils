@@ -12,7 +12,7 @@
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "skipLibCheck": true,
-    "types": ["node"]
+    "types": ["node", "mocha"]
   },
   "exclude": ["node_modules", ".vscode-test"]
 }
