@@ -19,3 +19,8 @@ node_modules
 !node_modules/typescript
 !node_modules/universalify
 !node_modules/graceful-fs
+!node_modules/jsonfile
+!node_modules/detect-indent
+!node_modules/reserved-words
+!node_modules/@wessberg/stringutil
+!node_modules/tslib
