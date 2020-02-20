@@ -1,5 +1,12 @@
+## <small>1.1.16 (2020-02-20)</small>
+
+* Update vscodepublish.yml ([187d213](https://github.com/CodersAKL/react-toolkit/commit/187d213))
+
+
+
 ## <small>1.1.15 (2020-02-20)</small>
 
+* v1.1.15 ([9dc8b90](https://github.com/CodersAKL/react-toolkit/commit/9dc8b90))
 
 
 

@@ -12,16 +12,3 @@ vsc-extension-quickstart.md
 assets/**
 !assets/logo.png
 .prettierrc.js
-node_modules
-!node_modules/@wessberg/cjs-to-esm-transformer
-!node_modules/fs-extra
-!node_modules/react-js-to-ts
-!node_modules/typescript
-!node_modules/universalify
-!node_modules/graceful-fs
-!node_modules/jsonfile
-!node_modules/detect-indent
-!node_modules/reserved-words
-!node_modules/@wessberg/stringutil
-!node_modules/tslib
-!node_modules/escape-string-regexp
