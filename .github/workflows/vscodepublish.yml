@@ -22,10 +22,10 @@ jobs:
         with:
           node-version: "10.x"
       - run: yarn
+      - run: npm list --production --parseable --depth=99999 --loglevel=error
       - run: yarn autoclean --init
       - run: echo "*.d.ts\n@types\n*.map" >> .yarnclean
       - run: yarn autoclean --force
-      - run: npm list --production --parseable --depth=99999 --loglevel=error
       - run: yarn lint
       - name: Run tests
         uses: GabrielBB/xvfb-action@v1.0
