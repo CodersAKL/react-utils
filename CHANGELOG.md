@@ -1,6 +1,13 @@
+## <small>1.1.10 (2020-02-20)</small>
+
+* Add missing dependencies and cleanup ([ce79650](https://github.com/CodersAKL/react-toolkit/commit/ce79650))
+
+
+
 ## <small>1.1.9 (2020-02-20)</small>
 
 * Update README.md ([5818e2f](https://github.com/CodersAKL/react-toolkit/commit/5818e2f))
+* v1.1.9 ([46e58e7](https://github.com/CodersAKL/react-toolkit/commit/46e58e7))
 
 
 
