@@ -1,9 +1,9 @@
 import * as vscode from 'vscode';
+
 import * as fs from 'fs-extra';
 import { run as convertToTypeScript } from 'react-js-to-ts';
 import { ModuleKind, transpileModule } from 'typescript';
 import { cjsToEsm } from '@wessberg/cjs-to-esm-transformer';
-
 import { editorContext, showInputBox, camelCase, getNewFileName, isJsx } from './utils';
 
 const { Position } = vscode;
@@ -46,7 +46,9 @@ export async function extractStyle() {
 }
 
 export const convertFileToTypescript = async (uri: vscode.Uri) => {
-    const { path } = uri;
+    const { fsPath: path } = uri;
+
+    console.log(path);
 
     vscode.workspace
         .openTextDocument(uri)
@@ -68,7 +70,7 @@ export const convertFileToTypescript = async (uri: vscode.Uri) => {
 };
 
 export const convertCjsToEsm = async (uri: vscode.Uri) => {
-    const { path } = uri;
+    const { fsPath: path } = uri;
 
     vscode.workspace
         .openTextDocument(uri)
