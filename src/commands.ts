@@ -1,9 +1,9 @@
 import * as vscode from 'vscode';
-
 import * as fs from 'fs-extra';
 import { run as convertToTypeScript } from 'react-js-to-ts';
 import { ModuleKind, transpileModule } from 'typescript';
 import { cjsToEsm } from '@wessberg/cjs-to-esm-transformer';
+
 import { editorContext, showInputBox, camelCase, getNewFileName, isJsx } from './utils';
 
 const { Position } = vscode;
