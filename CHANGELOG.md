@@ -1,5 +1,30 @@
+## <small>1.2.1 (2021-08-05)</small>
+
+
+
+
+## 1.2.0 (2021-08-05)
+
+* test: 💍 fixed tests ([e9a5399](https://github.com/CodersAKL/react-toolkit/commit/e9a5399))
+
+
+
+## <small>1.1.25 (2021-08-05)</small>
+
+* fix: 🐛 dependency hell fix ([bcb8a17](https://github.com/CodersAKL/react-toolkit/commit/bcb8a17))
+
+
+
+## <small>1.1.24 (2021-08-05)</small>
+
+* chore: 🤖 updated deps ([e087cf6](https://github.com/CodersAKL/react-toolkit/commit/e087cf6))
+* Window issue fix. ([4bc8586](https://github.com/CodersAKL/react-toolkit/commit/4bc8586))
+
+
+
 ## <small>1.1.23 (2020-02-20)</small>
 
+* v1.1.23 ([8a4416c](https://github.com/CodersAKL/react-toolkit/commit/8a4416c))
 
 
 
