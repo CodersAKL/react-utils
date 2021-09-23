@@ -1,5 +1,12 @@
+## <small>1.2.2 (2021-09-23)</small>
+
+* Update to work with a latest vscode ([6202b7b](https://github.com/CodersAKL/react-toolkit/commit/6202b7b))
+
+
+
 ## <small>1.2.1 (2021-08-05)</small>
 
+* v1.2.1 ([26b223b](https://github.com/CodersAKL/react-toolkit/commit/26b223b))
 
 
 
