@@ -1,3 +1,12 @@
+## <small>1.2.5 (2021-10-19)</small>
+
+* revert ([c94d005](https://github.com/CodersAKL/react-toolkit/commit/c94d005))
+* Update package.json ([a43427d](https://github.com/CodersAKL/react-toolkit/commit/a43427d))
+* Update vscodepublish.yml ([f8bc7b7](https://github.com/CodersAKL/react-toolkit/commit/f8bc7b7))
+* v1.2.4 ([fc01845](https://github.com/CodersAKL/react-toolkit/commit/fc01845))
+
+
+
 ## <small>1.2.3 (2021-10-19)</small>
 
 * Update package.json ([6454b23](https://github.com/CodersAKL/react-toolkit/commit/6454b23))
