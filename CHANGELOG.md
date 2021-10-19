@@ -1,6 +1,13 @@
+## <small>1.2.7 (2021-10-19)</small>
+
+* Activating extension Coders.react-toolkit failed due to an error ([15ce100](https://github.com/CodersAKL/react-toolkit/commit/15ce100))
+
+
+
 ## <small>1.2.6 (2021-10-19)</small>
 
 * I need to learn something new :) ([9c060dc](https://github.com/CodersAKL/react-toolkit/commit/9c060dc))
+* v1.2.6 ([578a527](https://github.com/CodersAKL/react-toolkit/commit/578a527))
 
 
 
