@@ -33,6 +33,5 @@ jobs:
           run: yarn test
       - name: Prepare release
         run: yarn compile
-      - run: npx github-release-from-changelog
       - name: Publish
         run: npx vsce publish -p $PUBLISHER_TOKEN --yarn
