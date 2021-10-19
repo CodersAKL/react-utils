@@ -1,9 +1,16 @@
+## <small>1.2.6 (2021-10-19)</small>
+
+* I need to learn something new :) ([9c060dc](https://github.com/CodersAKL/react-toolkit/commit/9c060dc))
+
+
+
 ## <small>1.2.5 (2021-10-19)</small>
 
 * revert ([c94d005](https://github.com/CodersAKL/react-toolkit/commit/c94d005))
 * Update package.json ([a43427d](https://github.com/CodersAKL/react-toolkit/commit/a43427d))
 * Update vscodepublish.yml ([f8bc7b7](https://github.com/CodersAKL/react-toolkit/commit/f8bc7b7))
 * v1.2.4 ([fc01845](https://github.com/CodersAKL/react-toolkit/commit/fc01845))
+* v1.2.5 ([5d5cced](https://github.com/CodersAKL/react-toolkit/commit/5d5cced))
 
 
 
