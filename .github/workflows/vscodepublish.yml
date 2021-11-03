@@ -21,12 +21,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "10.x"
-      - run: yarn
-      - run: npm list --production --parseable --depth=99999 --loglevel=error
-      - run: yarn autoclean --init
-      - run: echo "*.d.ts\n*.map\n@types" >> .yarnclean
-      - run: yarn autoclean --force
-      - run: yarn lint
+      - run: yarn install
       - name: Run tests
         uses: GabrielBB/xvfb-action@v1.0
         with:
