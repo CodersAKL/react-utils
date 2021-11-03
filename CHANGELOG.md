@@ -1,6 +1,13 @@
+## <small>1.3.3 (2021-11-03)</small>
+
+* update to lts node ([39742a3](https://github.com/CodersAKL/react-toolkit/commit/39742a3))
+
+
+
 ## <small>1.3.2 (2021-11-03)</small>
 
 * update the workflow ([ef63783](https://github.com/CodersAKL/react-toolkit/commit/ef63783))
+* v1.3.2 ([b1897e4](https://github.com/CodersAKL/react-toolkit/commit/b1897e4))
 
 
 
