@@ -1,6 +1,13 @@
+## <small>1.3.2 (2021-11-03)</small>
+
+* update the workflow ([ef63783](https://github.com/CodersAKL/react-toolkit/commit/ef63783))
+
+
+
 ## <small>1.3.1 (2021-11-03)</small>
 
 * Lets test it :) ([6888b24](https://github.com/CodersAKL/react-toolkit/commit/6888b24))
+* v1.3.1 ([4a214b9](https://github.com/CodersAKL/react-toolkit/commit/4a214b9))
 
 
 
