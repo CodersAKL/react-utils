@@ -1,6 +1,13 @@
+## <small>1.3.4 (2021-11-03)</small>
+
+* Update repo token ([1fdb74e](https://github.com/CodersAKL/react-toolkit/commit/1fdb74e))
+
+
+
 ## <small>1.3.3 (2021-11-03)</small>
 
 * update to lts node ([39742a3](https://github.com/CodersAKL/react-toolkit/commit/39742a3))
+* v1.3.3 ([1f93606](https://github.com/CodersAKL/react-toolkit/commit/1f93606))
 
 
 
