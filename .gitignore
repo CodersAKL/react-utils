@@ -1,3 +1,6 @@
 .vscode-test
-out
-node_modules
+out/
+node_modules/
+.parcel-cache/
+.DS_Store
+parcel-bundle-reports/
