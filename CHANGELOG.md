@@ -1,6 +1,13 @@
+## 1.3.0 (2021-11-03)
+
+* Update bundler. Improve extention size ([c12635e](https://github.com/CodersAKL/react-toolkit/commit/c12635e))
+
+
+
 ## <small>1.2.7 (2021-10-19)</small>
 
 * Activating extension Coders.react-toolkit failed due to an error ([15ce100](https://github.com/CodersAKL/react-toolkit/commit/15ce100))
+* v1.2.7 ([c5f72aa](https://github.com/CodersAKL/react-toolkit/commit/c5f72aa))
 
 
 
