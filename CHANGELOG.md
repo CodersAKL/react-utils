@@ -1,6 +1,13 @@
+## <small>1.3.1 (2021-11-03)</small>
+
+* Lets test it :) ([6888b24](https://github.com/CodersAKL/react-toolkit/commit/6888b24))
+
+
+
 ## 1.3.0 (2021-11-03)
 
 * Update bundler. Improve extention size ([c12635e](https://github.com/CodersAKL/react-toolkit/commit/c12635e))
+* v1.3.0 ([b150929](https://github.com/CodersAKL/react-toolkit/commit/b150929))
 
 
 
