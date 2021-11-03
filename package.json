@@ -92,10 +92,11 @@
   "scripts": {
     "cm": "git diff-index --cached --quiet HEAD || git-cz",
     "vscode:prepublish": "yarn run compile",
-    "compile": "rimraf out && parcel build --reporter @parcel/reporter-bundle-analyzer",
+    "compile": "rimraf out && parcel build",
+    "compile:analyze": "rimraf out && parcel build --reporter @parcel/reporter-bundle-analyzer",
     "lint": "eslint src --ext ts --fix",
     "watch": "parcel",
-    "pretest": "yarn run compile && yarn run lint",
+    "pretest": "rimraf out && tsc -p ./ && yarn run lint",
     "test": "node ./out/test/runTest.js",
     "release": "vsce publish",
     "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
