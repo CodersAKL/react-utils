@@ -41,8 +41,7 @@
       "outputFormat": "commonjs",
       "includeNodeModules": {
         "vscode": false,
-        "prettier": false,
-        "lodash": false
+        "prettier": false
       }
     }
   },
