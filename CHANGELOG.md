@@ -1,6 +1,13 @@
+## <small>1.3.5 (2021-11-04)</small>
+
+* are we going to include typescript in to the bundler? ([e3d61a3](https://github.com/CodersAKL/react-toolkit/commit/e3d61a3))
+
+
+
 ## <small>1.3.4 (2021-11-03)</small>
 
 * Update repo token ([1fdb74e](https://github.com/CodersAKL/react-toolkit/commit/1fdb74e))
+* v1.3.4 ([b31925f](https://github.com/CodersAKL/react-toolkit/commit/b31925f))
 
 
 
