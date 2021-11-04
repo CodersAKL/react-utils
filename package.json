@@ -40,7 +40,6 @@
       "optimize": true,
       "outputFormat": "commonjs",
       "includeNodeModules": {
-        "typescript": false,
         "vscode": false,
         "prettier": false,
         "lodash": false
