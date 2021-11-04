@@ -1,6 +1,13 @@
+## <small>1.3.6 (2021-11-04)</small>
+
+* make the extention file size bigger ([7a360e6](https://github.com/CodersAKL/react-toolkit/commit/7a360e6))
+
+
+
 ## <small>1.3.5 (2021-11-04)</small>
 
 * are we going to include typescript in to the bundler? ([e3d61a3](https://github.com/CodersAKL/react-toolkit/commit/e3d61a3))
+* v1.3.5 ([dafbefe](https://github.com/CodersAKL/react-toolkit/commit/dafbefe))
 
 
 
