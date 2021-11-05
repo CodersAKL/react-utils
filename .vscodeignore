@@ -39,3 +39,4 @@ node_modules/
 !node_modules/resolve
 !node_modules/is-core-module
 !node_modules/has
+!node_modules/function-bind
