@@ -1,6 +1,13 @@
+## <small>1.3.10 (2021-11-05)</small>
+
+* add one more dependency - it is a hell ([b1cfa96](https://github.com/CodersAKL/react-toolkit/commit/b1cfa96))
+
+
+
 ## <small>1.3.9 (2021-11-05)</small>
 
 * make exetention even bigger ([aee6f77](https://github.com/CodersAKL/react-toolkit/commit/aee6f77))
+* v1.3.9 ([21bd659](https://github.com/CodersAKL/react-toolkit/commit/21bd659))
 
 
 
