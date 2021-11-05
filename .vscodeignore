@@ -37,3 +37,4 @@ node_modules/
 !node_modules/lodash
 !node_modules/prettier
 !node_modules/resolve
+!node_modules/is-core-module
