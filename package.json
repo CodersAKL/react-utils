@@ -39,10 +39,7 @@
       "sourceMap": false,
       "optimize": true,
       "outputFormat": "commonjs",
-      "includeNodeModules": {
-        "vscode": false,
-        "prettier": false
-      }
+      "includeNodeModules": false
     }
   },
   "contributes": {
