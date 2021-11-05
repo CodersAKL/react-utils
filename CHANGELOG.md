@@ -1,6 +1,13 @@
+## <small>1.3.7 (2021-11-05)</small>
+
+* exclude node modules, but include in extention modules ([0b23a92](https://github.com/CodersAKL/react-toolkit/commit/0b23a92))
+
+
+
 ## <small>1.3.6 (2021-11-04)</small>
 
 * make the extention file size bigger ([7a360e6](https://github.com/CodersAKL/react-toolkit/commit/7a360e6))
+* v1.3.6 ([d2d3762](https://github.com/CodersAKL/react-toolkit/commit/d2d3762))
 
 
 
