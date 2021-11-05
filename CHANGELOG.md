@@ -1,6 +1,13 @@
+## <small>1.3.8 (2021-11-05)</small>
+
+* Hate it it until you make it ([4f1e6ca](https://github.com/CodersAKL/react-toolkit/commit/4f1e6ca))
+
+
+
 ## <small>1.3.7 (2021-11-05)</small>
 
 * exclude node modules, but include in extention modules ([0b23a92](https://github.com/CodersAKL/react-toolkit/commit/0b23a92))
+* v1.3.7 ([5566d6b](https://github.com/CodersAKL/react-toolkit/commit/5566d6b))
 
 
 
