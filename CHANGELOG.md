@@ -1,6 +1,13 @@
+## <small>1.3.9 (2021-11-05)</small>
+
+* make exetention even bigger ([aee6f77](https://github.com/CodersAKL/react-toolkit/commit/aee6f77))
+
+
+
 ## <small>1.3.8 (2021-11-05)</small>
 
 * Hate it it until you make it ([4f1e6ca](https://github.com/CodersAKL/react-toolkit/commit/4f1e6ca))
+* v1.3.8 ([8893b68](https://github.com/CodersAKL/react-toolkit/commit/8893b68))
 
 
 
